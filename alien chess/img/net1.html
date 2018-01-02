@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+	<head>
+			<title>DND with alerts</title>
+			
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<style>
+			#diva1, #diva3, #diva5, #diva7, #divb2, #divb4, #divb6, #divb8, #divc1, #divc3, #divc5, #divc7, 
+			#divd2, #divd4, #divd6, #divd8, #dive1, #dive3, #dive5, #dive7, #divf2, #divf4, #divf6, #divf8,
+			#divg1, #divg3, #divg5, #divg7, #divh2, #divh4, #divh6, #divh8
+			{
+				float: left;
+				width: 50px;
+				height: 50px;
+				border: 1px solid black;
+				background-color:white;
+			}
+
+			#diva2, #diva4, #diva6, #diva8, #divb1, #divb3, #divb5, #divb7, #divc2, #divc4, #divc6, #divc8,
+			#divd1, #divd3, #divd5, #divd7, #dive2, #dive4, #dive6, #dive8, #divf1, #divf3, #divf5, #divf7,
+			#divg2, #divg4, #divg6, #divg8, #divh1, #divh3, #divh5, #divh7{
+				float: left;
+				width: 50px;
+				height: 50px;
+				border: 1px solid black;
+				background-color:#add8e6;
+			}
+			#answer1Box,#answer2Box,#answer3Box,#answer4Box, #answer5Box
+			{
+			float:left;
+			width: 50px;
+			height: 50px;
+			}
+
+			</style>
+
+			<script src="jquery.js"></script>
+			<script>
+
+			function allowDrop(ev){
+			   ev.preventDefault();
+			}
+
+			function drag(ev){
+			   ev.dataTransfer.setData("content", ev.target.id);
+			}
+
+			function drop(ev){
+			   ev.preventDefault();
+			   var image = ev.dataTransfer.getData("content");
+			   ev.target.appendChild(document.getElementById(image));
+			
+			if($('#diva8').find('#bK1').length == 1)
+			  {
+				alert("CORRECT!");
+			  } else {
+				alert("Wrong!");
+			  }
+			 
+			}
+			
+			
+			function drop(ev1)
+			{
+			   ev1.preventDefault();
+			   var image1 = ev1.dataTransfer.getData("content");
+			   ev1.target.appendChild(document.getElementById(image1));
+			   if($('#divc6').find('#wN1').length == 1)
+			  {
+				alert("CORRECT!");
+			  } else {
+				alert("Wrong!");
+			  }
+			}
+			
+			function drop(ev2)
+			{
+			   ev2.preventDefault();
+			   var image2 = ev2.dataTransfer.getData("content");
+			   ev2.target.appendChild(document.getElementById(image2));
+			   if($('#divd5').find('#wK1').length == 1)
+			  {
+				alert("CORRECT!");
+			  } else {
+				alert("Wrong!");
+			  }
+			}
+			
+			function drop(ev3)
+			{
+			   ev3.preventDefault();
+			   var image3 = ev3.dataTransfer.getData("content");
+			   ev3.target.appendChild(document.getElementById(image3));
+			   if($('#divf7').find('#bP1').length == 1)
+			  {
+				alert("CORRECT!");
+			  } else {
+				alert("Wrong!");
+			  }
+			}
+			
+			function drop(ev4)
+			{
+			   ev4.preventDefault();
+			   var image4 = ev4.dataTransfer.getData("content");
+			   ev4.target.appendChild(document.getElementById(image4));
+			   if($('#divh1').find('#wR1').length == 1)
+			  {
+				alert("CORRECT!");
+			  } else {
+				alert("Wrong!");
+			  }
+			}
+</script>
+	</head>
+
+	<body>
+	
+		<h2>Memory game</h2>
+		<p>Remember the Place of the coins and Place them accordingly</p>
+		
+			<div id="answerBoxes">
+				
+				<div id="diva1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				<div id="divb1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divc1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divd1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="dive1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divf1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divg1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divh1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+			
+			<!-- end of answerBoxes -->
+			<div id="whatsWhatContent">
+			<div id="answers">
+			   <div id="answer1Box" ondrop="drop(event)" ondragover="allowDrop(event)">
+				   <img src="bK.png" draggable="true" ondragstart="drag(event)" id="bK1" width="50" height="50">
+			   </div>
+
+
+			   <div id="answer2Box" ondrop="drop1(event)" ondragover="allowDrop1(event)">
+				   <img src="wN.png" draggable="true" ondragstart="drag(event)" id="wN1" width="50" height="50">
+			</div>
+
+			   <div id="answer3Box" ondrop="drop2(event)" ondragover="allowDrop2(event)">
+				   <img src="wK.png" draggable="true" ondragstart="drag(event)" id="wK1" width="50" height="50">
+			</div>
+
+			   <div id="answer4Box" ondrop="drop3(event)" ondragover="allowDrop3(event)">
+				  <img src="bP.png" draggable="true" ondragstart="drag(event)" id="bP1" width="50" height="50">
+			</div>
+			
+			 <div id="answer5Box" ondrop="drop4(event)" ondragover="allowDrop4(event)">
+				  <img src="wR.png" draggable="true" ondragstart="drag(event)" id="wR1" width="50" height="50">
+			</div>
+
+	</body>
+</html>

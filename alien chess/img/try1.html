@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#diva1, #diva3, #diva5, #diva7, #divb2, #divb4, #divb6, #divb8, #divc1, #divc3, #divc5, #divc7, 
+#divd2, #divd4, #divd6, #divd8, #dive1, #dive3, #dive5, #dive7, #divf2, #divf4, #divf6, #divf8,
+#divg1, #divg3, #divg5, #divg7, #divh2, #divh4, #divh6, #divh8{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+	background-color:white;
+	
+}
+#diva2, #diva4, #diva6, #diva8, #divb1, #divb3, #divb5, #divb7, #divc2, #divc4, #divc6, #divc8,
+#divd1, #divd3, #divd5, #divd7, #dive2, #dive4, #dive6, #dive8, #divf1, #divf3, #divf5, #divf7,
+#divg2, #divg4, #divg6, #divg8, #divh1, #divh3, #divh5, #divh7{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+	background-color:#add8e6;
+}
+</style>
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+	
+	if($('#diva1').find('#drag1').length == 1)
+					{
+					alert("CORRECT!");
+					} 
+				else{
+					alert("Wrong!");
+					}
+}
+</script>
+</head>
+<body>
+
+<h2>Memory game</h2>
+<p>Remember the Place of the coins and Place them accordingly</p>
+		
+		
+				<div id="diva1" ondrop="drop(event)" ondragover="allowDrop(event)">
+				  
+				</div>
+
+				<div id="diva2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="diva8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				<div id="divb1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divb8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divc1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divc8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divd1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divd8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="dive1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="dive8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divf1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divf8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divg1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divg8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				
+				<div id="divh1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<div id="divh8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				<br> 
+				<br><br>
+				<img src="bB.png" draggable="true" ondragstart="drag(event)" id="drag1" width="50" height="50">
+				<img src="bK.png" draggable="true" ondragstart="drag(event)" id="drag2" width="50" height="50">
+				
+			
+		
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
