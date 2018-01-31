@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="home engineer thoughts">
+		<meta name="keywords" content="engineerthoughts,home,Home engineerthoughts,sudharsan,aranganathan,alien,arangan,engineer,engineersthoughts">
+		<meta name="author" content="engineerthoughts">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Engineer thoughts </title>
+		<link rel="shortcut icon" href="https://raw.githubusercontent.com/engineerthoughts/engineerthoughts/gh-pages/E.png">
+	
+<style>
+
+
+					body {margin:0;}
+					::-moz-selection { /* Code for Firefox */
+					color: #b7e2e2;
+					background: #0d1934;
+				}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+	background-color:#474e5d;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+	margin-top:85px;
+}
+
+/* Container around content */
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+	
+}
+
+/* The circles on the timeline */
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+	
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+b{
+color:#474e5d;}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
+}
+
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media all and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+				::selection {
+					color: #b7e2e2;
+					background: #0d1934;
+				}
+			.head1index{
+
+					text-align:center;
+					font-family:Century Gothic;
+					color:#590000;
+					}
+				.headgreen
+				{
+				margin: 0 auto;
+				padding:5px;
+				background: #a8dc5a;
+				width:100%;}
+				
+				.headblue{
+					padding:5px;
+					width:100%;
+					background:#7faaaa;
+				}
+			.head2index{
+
+					text-align:center;
+					font-family:Century Gothic;
+					color:white;
+					}
+			
+			.p1index{
+				font-size:20px;
+				font-family:Century Gothic;
+				color:#0d1934;
+				text-align:left;
+				padding-left:20px;
+				padding-right:20px;
+
+				}
+				.p2index{
+
+					font-family:Century Gothic;
+					color:#0c3327;
+					text-align:justify;
+					margin:10px 20px 0 20px;
+
+					}
+				
+				.headtextindex{
+					color:#1C353D;
+					text-align:center;
+					border-radius:20px;
+					padding:30px;
+					background-color:rgba(255,255,255,0.75);
+					max-width:800px;
+					margin: auto;
+					background-position: center;
+					font-family:Century Gothic;
+
+					}
+					
+					
+				.img2{
+					max-width: 90%;
+					height: auto;
+					}
+
+			.a1{
+				color:white;
+				text-decoration: none;
+			}
+			.a1:hover {
+				color:white;
+			}
+					.topnav a.active{
+						border-bottom: 2px solid #87CEFA;
+					}
+					.topnav {
+					  overflow: hidden;
+					  background-color: #0d1934;
+					  position: relative;
+					  width:100%;
+					  box-shadow: 0 12px 16px 0 rgba(0,0,0,.5),0 17px 50px 0 rgba(0,0,0,0.19);
+					}
+
+					.topnav a {
+					  float: left;
+					  display: block;
+					  color: #b7e2e2;
+					  text-align: center;
+					  padding: 14px 16px;
+					  text-decoration: none;
+					  font-size: 16px;
+					  text-align: center;
+					  font-family:Century Gothic;
+					}
+
+					.topnav a:hover {
+					  color:#b7e2e2;
+						border-bottom: 2px solid #87CEFA;
+					}
+
+
+					.topnav .icon {
+					  display: none;
+					}
+
+				@media screen and (max-height: 450px) {
+					  .sidenav1 {padding-top: 15px;}
+					  .sidenav1 a {font-size: 18px;}
+					}
+
+					@media screen and (max-width: 600px) {
+					  .topnav a:not(:first-child) {display: none;}
+					  .topnav a.icon {
+						float: right;
+						display: block;
+					  }
+					}
+
+					@media screen and (max-width: 600px) {
+					  .topnav.responsive {position: relative;}
+					  .topnav.responsive .icon {
+						position: absolute;
+						right: 0;
+						top: 0;
+					  }
+					  .topnav.responsive a {
+						float: none;
+						display: block;
+						text-align: center;
+					  }
+
+				}
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+			<a> <img src="https://raw.githubusercontent.com/engineerthoughts/engineerthoughts/gh-pages/E.png" width='20px', height='18px'> </a>
+			<a href="http://engineerthoughts.com/index.html">HOME</a>
+			<a href="http://engineerthoughts.com/projects.html">PROJECTS</a>
+			<a href="http://engineerthoughts.com/scribbles.html">SCRIBBLES</a>
+			<a href="http://engineerthoughts.com/apj.html">THOUGHTS</a>
+			<a class="active" href="http://engineerthoughts.com/aboutus.html">ABOUT US</a>
+			<!--<a id="announcement" style="color: rgb(162, 238, 47);" href="http://engineerthoughts.com/elec.html">**NEW**</a> -->
+			<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">☰</a>
+		</div>
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+			</script>
+		<br>
+		<center><div class="headgreen">
+<h2 class="head1index">
+SUDHARSAN K</h2>
+<h3 class="head2index">Yet to be disclosed</h3></div>
+</center><br>
+<div class="headblue">
+<h3 style="color:white;font-family:Century Gothic;">ABOUT ME:</h3>
+<h4 style="color:#0d1934;font-family:Century Gothic;">I like to make things. I am a self taught designer and animator. I am friendly, helpful and polite, have a good sense of humour. I like to suprise myself by doing new things. I will learn things which I see new and I would like to carry out them practically.
+</div><BR>
+<div class="timeline"><br>
+<h3 style="color:white;font-family:Century Gothic;">Brief Walkthrough on Main things in my Life:</h3>
+  <div class="container right">
+    <div class="content">
+      <h2>2017-Present</h2>
+      <p><li>Implemented <b>Home Solar Electric System.</b><br></li><li>Created this <b>Website.</b><br></li><li>Started my <b>Professional Career.</b></li></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2013-17</h2>
+      <p><li>Attended (7 days) Inplant Training at <b>INTEGRAL COACH FACTORY.</b> <br> </li>
+	 <li>Attended various Workshop in various Colleges related to Automation and Design.<br></li>
+	 <li>Won third prize in <b>LINE TRACER</b> (Pinnacle'17) at <b>CEG Guindy.</b><br></li>
+	 <li> Completed my <b>Bachelor of Engineering</b> in Panimalar Engineering College with <b>8.18 CGPA.</b></li></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2012-13</h2>
+      <p><li><b>Art Exhibition</b> (ART BEAT 2013) at Lalit Kala Akademi. <br></li> <li>Joined <b>Scouts and Guides</b> and completed Pratham Sopan. <br></li><li>Completed my <b>HSC Examination</b> in N.S.N. Matric. Hr. Sec. School with <b>86.5%.</b></li></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>2010-11</h2>
+      <p><li><b>Winners</b> in LHCA Parents Trophy 2010 <b>(Cricket)</b>. <br></li><li>Completed my <b>SSLC Examination</b> in Holy Cross Matric. Hr. Sec. School with <b>83.6%</b></p></li>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2006-07</h2>
+      <p> <li>Got <b>Consolation Prize</b> in 6th All India U C Mas Abacus & Mental Arithmetic.</p></li>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
