@@ -1,0 +1,128 @@
+ Volume in drive C is OSDisk
+ Volume Serial Number is CE10-144D
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning
+
+11/24/2017  10:12 AM    <DIR>          .
+11/24/2017  10:12 AM    <DIR>          ..
+11/02/2017  10:05 AM            96,413 1.PNG
+11/06/2017  11:43 AM            72,598 10.PNG
+11/06/2017  12:40 PM           194,700 11.PNG
+11/06/2017  01:00 PM            50,977 12.PNG
+11/08/2017  11:25 AM            47,927 13.PNG
+11/08/2017  11:53 AM           220,409 14.PNG
+11/02/2017  10:06 AM            50,010 2 no actions available.PNG
+11/02/2017  11:11 AM           174,596 3 80per.PNG
+11/02/2017  11:44 AM            91,469 4.PNG
+11/03/2017  01:18 PM           181,259 5.PNG
+11/03/2017  03:37 PM            35,915 6.PNG
+11/03/2017  04:37 PM           225,563 7.PNG
+11/06/2017  11:09 AM           222,768 8.PNG
+11/06/2017  11:40 AM           101,136 9.PNG
+11/07/2017  10:49 AM             9,532 imp to be uploaded.PNG
+11/14/2017  02:15 PM    <DIR>          index
+11/24/2017  10:12 AM                 0 listmyfolder.txt
+11/07/2017  10:55 AM            48,134 scan failed.PNG
+              17 File(s)      1,823,406 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/14/2017  02:15 PM    <DIR>          handps mylearning
+11/14/2017  02:15 PM    <DIR>          hibernate invert
+11/14/2017  02:15 PM    <DIR>          hibernate screenshot
+11/10/2017  11:02 AM         4,068,583 hourofcode.png
+11/14/2017  02:15 PM    <DIR>          logs
+               1 File(s)      4,068,583 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\handps mylearning
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/02/2017  10:05 AM            96,413 1.PNG
+11/06/2017  11:43 AM            72,598 10.PNG
+11/06/2017  12:40 PM           194,700 11.PNG
+11/06/2017  01:00 PM            50,977 12.PNG
+11/08/2017  11:25 AM            47,927 13.PNG
+11/08/2017  11:53 AM           220,409 14.PNG
+11/02/2017  10:06 AM            50,010 2 no actions available.PNG
+11/02/2017  11:11 AM           174,596 3 80per.PNG
+11/02/2017  11:44 AM            91,469 4.PNG
+11/03/2017  01:18 PM           181,259 5.PNG
+11/03/2017  03:37 PM            35,915 6.PNG
+11/03/2017  04:37 PM           225,563 7.PNG
+11/06/2017  11:09 AM           222,768 8.PNG
+11/06/2017  11:40 AM           101,136 9.PNG
+11/07/2017  10:49 AM             9,532 imp to be uploaded.PNG
+11/07/2017  10:55 AM            48,134 scan failed.PNG
+              16 File(s)      1,823,406 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\hibernate invert
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/07/2017  04:59 PM            44,128 1_edited.jpg
+11/07/2017  05:07 PM            95,787 2_edited2.jpg
+11/07/2017  05:08 PM            70,877 3_edited.jpg
+11/07/2017  05:08 PM            95,922 4_edited.jpg
+11/07/2017  05:08 PM            32,473 5_edited.jpg
+11/07/2017  05:10 PM            59,114 6_edited.jpg
+11/07/2017  05:10 PM            19,150 7_edited.jpg
+11/07/2017  05:11 PM            57,903 8_edited.jpg
+               8 File(s)        475,354 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\hibernate screenshot
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/07/2017  04:56 PM            74,768 1.png
+11/07/2017  04:57 PM           191,369 2.png
+11/07/2017  05:00 PM           144,568 3.png
+11/07/2017  05:00 PM           175,137 4.png
+11/07/2017  05:01 PM            37,600 5.png
+11/07/2017  05:01 PM            95,816 6.png
+11/07/2017  05:01 PM            20,635 7.png
+11/07/2017  05:07 PM            73,591 8.png
+               8 File(s)        813,484 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\logs
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/07/2017  11:37 AM               214 0711log.CSV
+11/07/2017  11:39 AM            62,339 quarantine.PNG
+11/07/2017  11:40 AM            46,656 removedextension.PNG
+11/07/2017  11:40 AM            44,271 risklog.PNG
+11/07/2017  11:39 AM            46,469 scan log.PNG
+11/07/2017  11:39 AM           111,562 symantechome.PNG
+11/07/2017  11:40 AM            43,811 systemlog.PNG
+11/14/2017  02:15 PM    <DIR>          try
+               7 File(s)        355,322 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\logs\try
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/10/2017  12:33 PM             1,140 b.PNG
+11/07/2017  11:40 AM            44,271 risklog.PNG
+11/07/2017  11:39 AM            46,469 scan log.PNG
+11/07/2017  11:39 AM           111,562 symantechome.PNG
+11/07/2017  11:40 AM            43,811 systemlog.PNG
+11/14/2017  02:15 PM    <DIR>          try1
+               5 File(s)        247,253 bytes
+
+ Directory of C:\Users\sudharsan.kannan\Desktop\handpsmylearning\index\logs\try\try1
+
+11/14/2017  02:15 PM    <DIR>          .
+11/14/2017  02:15 PM    <DIR>          ..
+11/07/2017  11:40 AM            46,656 b.PNG
+11/07/2017  11:40 AM            44,271 risklog.PNG
+11/07/2017  11:39 AM            46,469 scan log.PNG
+11/07/2017  11:39 AM           111,562 symantechome.PNG
+11/07/2017  11:40 AM            43,811 systemlog.PNG
+               5 File(s)        292,769 bytes
+
+     Total Files Listed:
+              67 File(s)      9,899,577 bytes
+              23 Dir(s)  374,861,393,920 bytes free
