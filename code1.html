@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TNPSC Toppers Academy</title>
+<style>
+body
+{
+  margin: 0;
+  background:white;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+.p1index
+	{
+	font-size:20px;
+	font-family:Calibri, Helvetica, sans-serif;
+	color:#0d1934;
+	text-align:justify;
+	margin:10px 20px 0 20px;
+	width:90%;
+	}
+.head1index{
+	margin-left:20px;
+	font-family:Century Gothic;
+	color:#0c3327;
+	}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #ccc;
+	width:90%;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+	width:90%;	
+	text-align:left;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 
+{ 
+    color: black;
+	background-color: white; 	
+    border: 2px solid #008CBA;
+}
+#button3 
+{ 
+    color: white;
+	background-color: #008CBA; 
+	border: none;	
+	font-size: 18px;
+	padding: 10px 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.active {
+  background-color: #5c4872;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#Title" class="active">TNPSC TOPPERS ACADEMY</a>
+  <a href="#tagline">a simplified learning methodology</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<script>
+var myFuncCalls = 0;
+						function fnChangeBorder(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans1").style.border = "solid #66cc33";
+							document.getElementById("B").disabled = true;
+							document.getElementById("C").disabled = true;
+							document.getElementById("D").disabled = true;
+							document.getElementById("ans").disabled = true;
+						}
+
+						function answervalidate() 
+						{
+							document.getElementById("ans1").style.border = "solid #66cc33";
+							document.getElementById("B").disabled = true;
+							document.getElementById("C").disabled = true;
+							document.getElementById("D").disabled = true;
+							document.getElementById("ans1").disabled = true;
+							myFuncCalls++;
+
+						}
+						//2
+						function fnChangeBorder1(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans2").style.border = "solid #66cc33";
+							document.getElementById("B1").disabled = true;
+							document.getElementById("C1").disabled = true;
+							document.getElementById("D1").disabled = true;
+							document.getElementById("ans2").disabled = true;
+						}
+
+						function answervalidate1() 
+						{
+							document.getElementById("ans2").style.border = "solid #66cc33";
+							document.getElementById("B1").disabled = true;
+							document.getElementById("C1").disabled = true;
+							document.getElementById("D1").disabled = true;
+							document.getElementById("ans2").disabled = true;
+							myFuncCalls++;
+
+						}
+						//3
+						function fnChangeBorder2(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans3").style.border = "solid #66cc33";
+							document.getElementById("B2").disabled = true;
+							document.getElementById("C2").disabled = true;
+							document.getElementById("D2").disabled = true;
+							document.getElementById("ans3").disabled = true;
+						}
+
+						function answervalidate2() 
+						{
+							document.getElementById("ans3").style.border = "solid #66cc33";
+							document.getElementById("B2").disabled = true;
+							document.getElementById("C2").disabled = true;
+							document.getElementById("D2").disabled = true;
+							document.getElementById("ans3").disabled = true;
+							myFuncCalls++;
+
+						}
+						//4
+						function fnChangeBorder3(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans4").style.border = "solid #66cc33";
+							document.getElementById("B10").disabled = true;
+							document.getElementById("C10").disabled = true;
+							document.getElementById("D10").disabled = true;
+							document.getElementById("ans4").disabled = true;
+						}
+
+						function answervalidate3() 
+						{
+							document.getElementById("ans4").style.border = "solid #66cc33";
+							document.getElementById("B10").disabled = true;
+							document.getElementById("C10").disabled = true;
+							document.getElementById("D10").disabled = true;
+							document.getElementById("ans4").disabled = true;
+							myFuncCalls++;
+
+						}
+						
+						//5
+						function fnChangeBorder4(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans5").style.border = "solid #66cc33";
+							document.getElementById("B4").disabled = true;
+							document.getElementById("C4").disabled = true;
+							document.getElementById("D4").disabled = true;
+							document.getElementById("ans5").disabled = true;
+						}
+
+						function answervalidate4() 
+						{
+							document.getElementById("ans5").style.border = "solid #66cc33";
+							document.getElementById("B4").disabled = true;
+							document.getElementById("C4").disabled = true;
+							document.getElementById("D4").disabled = true;
+							document.getElementById("ans5").disabled = true;
+							myFuncCalls++;
+
+						}
+						
+						//6
+						function fnChangeBorder5(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans6").style.border = "solid #66cc33";
+							document.getElementById("B5").disabled = true;
+							document.getElementById("C5").disabled = true;
+							document.getElementById("D5").disabled = true;
+							document.getElementById("ans6").disabled = true;
+						}
+
+						function answervalidate5() 
+						{
+							document.getElementById("ans6").style.border = "solid #66cc33";
+							document.getElementById("B5").disabled = true;
+							document.getElementById("C5").disabled = true;
+							document.getElementById("D5").disabled = true;
+							document.getElementById("ans6").disabled = true;
+							myFuncCalls++;
+
+						}
+						//7
+						function fnChangeBorder6(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans7").style.border = "solid #66cc33";
+							document.getElementById("B6").disabled = true;
+							document.getElementById("C6").disabled = true;
+							document.getElementById("D6").disabled = true;
+							document.getElementById("ans7").disabled = true;
+						}
+
+						function answervalidate6() 
+						{
+							document.getElementById("ans7").style.border = "solid #66cc33";
+							document.getElementById("B6").disabled = true;
+							document.getElementById("C6").disabled = true;
+							document.getElementById("D6").disabled = true;
+							document.getElementById("ans7").disabled = true;
+							myFuncCalls++;
+
+						}
+						//8
+						function fnChangeBorder7(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans8").style.border = "solid #66cc33";
+							document.getElementById("B7").disabled = true;
+							document.getElementById("C7").disabled = true;
+							document.getElementById("D7").disabled = true;
+							document.getElementById("ans8").disabled = true;
+						}
+
+						function answervalidate7() 
+						{
+							document.getElementById("ans8").style.border = "solid #66cc33";
+							document.getElementById("B7").disabled = true;
+							document.getElementById("C7").disabled = true;
+							document.getElementById("D7").disabled = true;
+							document.getElementById("ans8").disabled = true;
+							myFuncCalls++;
+
+						}
+						//9
+						function fnChangeBorder8(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans9").style.border = "solid #66cc33";
+							document.getElementById("B8").disabled = true;
+							document.getElementById("C8").disabled = true;
+							document.getElementById("D8").disabled = true;
+							document.getElementById("ans9").disabled = true;
+						}
+
+						function answervalidate8() 
+						{
+							document.getElementById("ans9").style.border = "solid #66cc33";
+							document.getElementById("B8").disabled = true;
+							document.getElementById("C8").disabled = true;
+							document.getElementById("D8").disabled = true;
+							document.getElementById("ans9").disabled = true;
+							myFuncCalls++;
+
+						}
+						//10
+						function fnChangeBorder9(boxId)
+						{
+							document.getElementById(boxId).style.border = "solid #ff0000";
+							document.getElementById("ans10").style.border = "solid #66cc33";
+							document.getElementById("B9").disabled = true;
+							document.getElementById("C9").disabled = true;
+							document.getElementById("D9").disabled = true;
+							document.getElementById("ans10").disabled = true;
+						}
+
+						function answervalidate9() 
+						{
+							document.getElementById("ans10").style.border = "solid #66cc33";
+							document.getElementById("B9").disabled = true;
+							document.getElementById("C9").disabled = true;
+							document.getElementById("D9").disabled = true;
+							document.getElementById("ans10").disabled = true;
+							myFuncCalls++;
+
+						}
+						function resultsans()
+						{
+						document.getElementById("resultans").innerHTML=myFuncCalls + "/10";
+						}
+						
+</script>
+<center><h3 class="head1index">Indian National Movement - Quiz 1</h3></center>
+	<br>
+<center>
+<div id="question1" class="tabcontent">
+			
+			  <form action="" method="POST">
+						<p class="p1index"><b>Q1:</b> The Indian National Congress was founded by ?</p>
+						<br />	
+						<input type="button" class="button button2"  id="ans1" name="answer" value="A.	 A.O.Hume" onclick="answervalidate();" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B" value="B.	Bal Gangadhar Tilak" onclick="fnChangeBorder('B');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C" value="C.	Motilal Nehru" onclick="fnChangeBorder('C')" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D" value="D.	Surendra Nath Bannerjee" onclick="fnChangeBorder('D')" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question2')"></input>
+</div>
+
+<div id="question2" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q2: </b>The first President of the Indian National Congress was:</p>
+						<br />	
+						<input type="button" class="button button2" id="D1" name="answer" value="A.	Anandamohan Basu" onclick="fnChangeBorder1('D1');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B1" value="B.	Dadabhai Naoroji" onclick="fnChangeBorder1('B1');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C1" value="C.	Raja Ram Mohan Roy" onclick="fnChangeBorder1('C1')" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="ans2" value="D.	Womesh Chandra Bannerjee" onclick="answervalidate1();" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question3')"></input>
+</div>
+
+<div id="question3" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q3: </b>The first session of the Indian National Congress was held at:</p>
+						<br />	
+						<input type="button" class="button button2" id="ans3" name="answer" value="A.	Calcutta" onclick="answervalidate2();" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B2" value="B.	Mumbai" onclick="fnChangeBorder2('B2');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C2" value="C.	Chennai" onclick="fnChangeBorder2('C2')" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D2" value="D.	New Delhi" onclick="fnChangeBorder2('D2');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question4')"></input>
+</div>
+
+<div id="question4" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q4: </b>Who amongst the following was the first woman President of the Indian National Congress?</p>
+						<br />	
+						<input type="button" class="button button2" id="ans4" name="answer" value="A.	Annie Besant" onclick="answervalidate3();" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B10" value="B.	Mira Behn" onclick="fnChangeBorder3('B10');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C10" value="C.	Sarojini Naidu" onclick="fnChangeBorder3('C10');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D10" value="D.     Kasturba Gandhi" onclick="fnChangeBorder3('D10');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question5')"></input>
+</div>
+<div id="question5" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q5: </b>The first Muslim to be elected President of the Indian National Congress was?</p>
+						<br />	
+						<input type="button" class="button button2" id="C4" name="answer" value="A.	Abul Kalam Azad" onclick="fnChangeBorder4('C4');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B4" value="B.	R.A.Kidwai" onclick="fnChangeBorder4('B4');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="ans5" value="C.	Badrudin Tyabji" onclick="answervalidate4();" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D4" value="D.     Mohammad Ali" onclick="fnChangeBorder4('D4');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question6')"></input>
+</div>
+<div id="question6" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q6: </b>The name "Indian National Congress" was given by?</p>
+						<br />	
+						<input type="button" class="button button2" id="C5" name="answer" value="A.	S.N.Bannerjee" onclick="fnChangeBorder5('C5');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B5" value="B.	Feroz Shah Mehta" onclick="fnChangeBorder5('B5');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="ans6" value="C.	Dadabhai Naoroji" onclick="answervalidate5();" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D5" value="D.     M.G.Ranade" onclick="fnChangeBorder5('D5');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question7')"></input>
+</div>
+
+<div id="question7" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q7: </b>The viceroy who invited the delegates of the Indian National Congress to a garden Party in 1886 was?</p>
+						<br />	
+						<input type="button" class="button button2" id="C6" name="answer" value="A.	Lord Caning" onclick="fnChangeBorder6('C6');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B6" value="B.	Lord Mayo" onclick="fnChangeBorder6('B6');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D6" value="C.	Lord Liton" onclick="fnChangeBorder6('D6');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="ans7" value="D.     Lord Duferin" onclick="answervalidate6();" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question8')"></input>
+</div>
+
+<div id="question8" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q8: </b>"Swaraj is my birth right", Who said?</p>
+						<br />	
+						<input type="button" class="button button2" id="ans8" name="answer" value="A.	Bal Gangadhar Tilak" onclick="answervalidate7();" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B7" value="B.	Dadabhai Naoroji" onclick="fnChangeBorder7('B7');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D7" value="C.	Netaji Subhash Chandra Bose" onclick="fnChangeBorder7('D7');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C7" value="D.     Bhagat Singh" onclick="fnChangeBorder7('C7');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question9')"></input>
+</div>
+
+<div id="question9" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q9: </b>Who among the following was known as "Frontier Gandhi"?</p>
+						<br />	
+						<input type="button" class="button button2" id="C8" name="answer" value="A.	Sir Syed Ali khan" onclick="fnChangeBorder8('C8');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="B8" value="B.	Syed Amir Ali" onclick="fnChangeBorder8('B8');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D8" value="C.	Abul Kalam Azad" onclick="fnChangeBorder8('D8');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="ans9" value="D.     Abdul Gaffar Khan" onclick="answervalidate8();" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+		
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="<< Back" onclick="openCity(event, 'question8')"></input>
+			<input type = "button" class="tablinks" id="button3" value="Next >>" onclick="openCity(event, 'question10')"></input>
+</div>
+<div id="question10" class="tabcontent">
+	<form action="" method="POST">
+						<p class="p1index"><b>Q10: </b>The name of the committee to enquire Jallianwala Bagh Massacre was?</p>
+						<br />	
+						<input type="button" class="button button2" id="B9" name="answer" value="A.	Simon Commission" onclick="fnChangeBorder9('B9');" />
+						<br />
+						<input type="button" class="button button2" name="answer" class="box" id="ans10" value="B.	Hunter Commission" onclick="answervalidate9();" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="D9" value="C.	Raymond Commission" onclick="fnChangeBorder9('D9');" />
+						<br />
+						 <input type="button" class="button button2" name="answer" class="box" id="C9" value="D.     Linlithgo Commission" onclick="fnChangeBorder9('C9');" />
+						<br />
+						<div id="msg"></div>
+						
+					</form>
+			<br>
+			<input type = "button" class="tablinks" id="button3" value="Results >>" onclick="openCity(event, 'question11')"></input>
+</div>
+
+<div id="question11" class="tabcontent">
+	
+	<p id="resultans"></p>
+	<input type = "button" class="tablinks" id="button3" value="Results" onclick="resultsans()"></input>		
+	<input type = "button" class="tablinks" id="button3" value="Review Test" onclick="openCity(event, 'question1')"></input>
+</div>
+
+<script>
+document.getElementById("question1").style.display = "block";
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+   
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+<div class="footer">
+  <p>© TNPSC Toppers Academy</p>
+</div>
+</body>
+</html>
