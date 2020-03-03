@@ -1,0 +1,89 @@
+https://webide.1a95.calliduscloud.com/
+UserName	webide_ps_smf0079sbox
+Password	Aspen5325zuni1
+
+SIT - url: https://webide.1a95.calliduscloud.com/
+username: webide_ps_smf0154sbox
+Pwd: AspenPeak2019
+
+SELECT * FROM TABLE_COLUMNS where TABLE_NAME= 'STG_IN_TXN_ASNMT';
+09/12/20
+
+https://sandbox.webcomserver.com/
+Username  SKannan
+Password  Centurylink123
+SIT Password: Centurylink123
+SIT Password: Pravi1508!
+
+https://0079.callidusondemand.com/
+https://0154.callidusondemand.com/
+username Skannan
+password Centurylink1
+
+
+https://ctlchangead.centurylink.com
+Name: Sudharsan Kannan
+WorkStation Login (CTL ID/CUID): AC60180
+Password: nh2PqmMw
+Name: Sudharsan.kannan@centurylink.com
+New Password: I@msudh@rs@n1996
+New Password: n@TION@L@RMY1996
+
+JIRA
+Name: Sudharsan.kannan@centurylink.com
+password: Centurylink123$$
+
+
+https://support.accenture.com/support_portal/?id=iframe_catalog_request&sys_id=21fbd3bf134d3200e24d30128144b005
+
+Discount/Uplift, 15 day, Quota based rate table capping, QBHC & Non-QBHC 1h or 2h capping, bridge, Fresh Start, Blended
+
+1. assignments - ban, ultimate customer or customer;
+if the assignment is provided at circuit, sub circuit, sub sub circuit;
+
+2. populating error log; Product Hierarchy; final list of error log from DI team (variation on Document and FSD)
+
+3. Need to add Table name in all the feeds. (need to revisit with DI team on the Table name)
+
+
+
+VT_PRODUCT_MAPPING_PNE
+VT_FINANCE_PROD_HIER
+
+STG_IN_PRODUCT_MAPPING_PNE
+STG_IN_FINANCE_PROD_HIER
+
+
+Position ID, Int/Ext Indicator, CUSTOMER_NBR, CUSTOMER_NAME, BILLING_ACCOUNT_NAME
+
+# of records - 100 
+comparing - (TBR_STG_IN)
+columns mapping - FSD Document 
+Data format - Dates in DAte column and char in Char column
+# of TBR stg_in should match with # of CS_Stage TBR
+
+
+combination of Assignment type and components (TBR, SOV) - need to add
+Table name and exact field name - for TBR and SOV (For all) need to revisit with exact table name 
+need to re-frame the condition for Callidus GUI - 
+Need to ensure we are documenting all the snapshots (V&T)
+
+Inbound interfaces
+Assignment
+Products
+
+
+Need to alter the complexity -  add the same in the doc as well
+- Same table (Low)
+- 1 Table Reference (Medium)
+- 2 Table REference (High)
+====
+
+update the field name exactly
+stg_H_ - need to import excel object
+need to check on the error code for CS_Stage product
+need to modify row 74
+split the scenario 75 row
+merge 76 75 & 77 78
+GUI mention in 84-86
+Need to maintain separate sheet for the 11/710018553
